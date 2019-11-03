@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 * {
   box-sizing: border-box;
 }
@@ -115,6 +116,7 @@ header .count {
   height: 20px;
   line-height: 20px;
 }
+
 
 /* --- PRODUCT LIST --- */
 .products {

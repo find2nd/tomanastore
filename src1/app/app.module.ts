@@ -3,19 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { BodyComponent } from './body/body.component';
-import { FooterComponent } from './footer/footer.component';
+import { ProductsComponent } from './products/products.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 import { registerLocaleData } from '@angular/common';
-import localeVi from '@angular/common/locales/vi';
-registerLocaleData(localeVi, 'vi');
+import localeVn from '@angular/common/locales/vi';
+registerLocaleData(localeVn, 'vi');
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent,
-    FooterComponent
+    ProductsComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,8 @@
+<main>
+  <app-header [totalItemsChild]="getCountProduct()"></app-header>
+
+  <app-products [Product]="products" (onRemoveProduct)="removeProduct($event)"(suKienThayDoiSoLuong)="hamXuLyKhiBatDauSuKienThayDoiSoLuong($event)
+  "></app-products>
+
+  <app-checkout>[subTotal]="getsubTotal()"</app-checkout>
+</main>
